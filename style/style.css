@@ -39,35 +39,38 @@ body {
     margin-left: 25px;
 }
 
+#second-box {
+    height: 35px;
+    background-color: rgb(124, 128, 192)
+}
+
 .vertical {
-    border-left: 6px solid black;
-    height: 1200px;
-    position: absolute;
+    border-left: 4px solid black;
+    height: 750px;
+    float: left;
     left: 25%;
 }
 
 .hero {
     padding: 0 0 0 0;
     margin: 0;
-    height: 200px;    
+    height: 220px;    
     left: 25%;
 }
 
-.hero img {
-    height: 250px;
-    padding: 0 0 90px 370px;
+#main-pic {
+    border: solid 2px black;
+    width: 1134px;
+    height: 220px;
+    padding:  0 0 0 0;
     left: 25%;
 }
 
 .borderbox {
     padding: 10px;
     background-color: darkslategrey;
-    height: 45px;
+    height: 700px;
     ;
-}
-
-.Fancy-Button {
-    align-items: flex-end;
 }
 
 .content-aboutme, .content-work {
@@ -81,25 +84,28 @@ body {
     border: solid 2px black;
 }
 
+#left-aside {
+    float: left;
+}
 
-.about-me {
-    vertical-align: top;
-    padding: 10px;
+.about-me {   
+    padding: 135px 10px 10px 10px;
     margin-top: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.work {
-    vertical-align: middle;
+.Work {
     padding: 10px;
-    position: absolute;
-    margin: 25px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+} 
 
+#run-buddypic {
+
+
+}
 .contact {
-    padding: 10px;
-    vertical-align: bottom;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -109,9 +115,17 @@ body {
     left: 25%;
 }
 
+.information {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 390px 0 0 400px;
+    left: 25%;
+}
+
+
 footer {
+    padding: 0;
     float: right;
-    width: 73%;
+    width: 100%;
     text-align: center;
     background-color: gray;
     clear: both;

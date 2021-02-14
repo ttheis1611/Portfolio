@@ -21,31 +21,36 @@
                       <a href="#Work">Work</a>
                   </li>
                   <li>
-                      <a href="#Contact-Info">Contact Info</a>
+                      <a href="#Contact-info">Contact Info</a>
                   </li>
               </ul>
           </div>
-      </nav>
-      <section class="borderbox">
-        <button class="Fancy-Button">Fancy Button</button> 
-      </section>
+        </nav>
+        <div id="second-box" alt="layer to banner"></div>
     </header>
     
-<!--Style vertical Line-->
-  <div class="vertical"></div>
-
-    <section class="hero">
-      <!--<img id="main-pic" src="./assets/me2.png" alt="Picture of Terry Theis" /> -->
-      <img id="sec-pic" src="./assets/Onastena.png" alt="Picture of Sweden" />   
-    </section>
 
 <!--About me Info-->
-    <aside id="About-Me">
-      <div class="about-me">
+    <aside id="left-aside">
+      <div id="About-Me" class="about-me">
         <h2>About Me</h2>
+      </div>
+      <div id="Work" class="Work">
+        <h2>Work</h2>
+      </div>  
+      <div id="Contact-info" class="contact">
+        <h2>Contact Info</h2>
       </div>
     </aside>
 
+    <!--Style vertical Line-->
+  <div class="vertical"></div>
+
+    <section class="hero">
+      <img id="main-pic" src="./assets/me2.png" alt="Picture of Terry Theis" />   
+    </section>
+
+<!--About me Content-->
       <section class="content-aboutme">
         <article>
           <ul>
@@ -56,44 +61,34 @@
         </article>
       </section>
 
-<!--Work Info-->
-      <aside id="Work">
-        <div class="work">
-          <h2>Work</h2>
-        </div>  
-      </aside>
-
+<!--Work Content-->
       <section class="content-work">
         <article>
+          <a onclick="window.open('https://ttheis1611.github.io/run-buddy/')"><img id="run-buddypic" src="./assets/runBuddy.png" style="width:250px;height:128px"; alt="pic of Run Buddy" /></a>
+          <a onclick="window.open('https://ttheis1611.github.io/Horiseon/')"><img id="Horiseonpic" src="./assets/Horiseon.jpg" style="width:250px;height:128px"; alt="pic of Horiseon" /></a>
           <ul>
-            <li>"Failure is simply the Opportunity to begin again, this time more intellegently.     ..Henry Ford</li>
-            <li>Some interesting things about me that would knock the socks off anyone wanting to hire me.</li>
-            <li>I'm just a guy out playing in the developer world, but can't get through this page"</li>
+            <li>My work history includes several current projects but, to highlight a few would be 
+              Run-Buddy and Horiseon. These were projects to show off my skills.
+            </li>
           </ul> 
         </article>
       </section>
 
-<!--Contact Group-->
-    <aside>
-      <div class="contact">
-        <h2>Contact Info</h2>
-      </div>  
-    </aside>
-
 <!--Contact Info--> 
-        <article class="contact-info">
+        <div class="information">
           <ul>
             <li><strong>Email:</strong> <a href="#">tltheis@prodigy.net</a></li>
             <li><strong>Github:</strong> <a href="#">https://github.com/ttheis1611</a></li>
             <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
           </ul> 
-        </article>
+        </div>
       
 <!--Footer Info-->
-      <footer>
+      <footer class="footer">
           <div>
             <img id="sec-pic" src="./assets/hands.png" alt="Made with these Hands" />
             <p>Made with these Hands 2021</p>
+            <img id="sec-pic" src="./assets/Onastena.png" alt="Picture of Sweden" />
         </div>
       </footer>       
     </body>
