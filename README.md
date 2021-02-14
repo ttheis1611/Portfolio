@@ -6,18 +6,33 @@
     Header has navigation included with hover over
     About me and Work sections
     Contact area at the bottom
+    Favicon
 
 ## Website UI
 
-    A simple display of who Terry Theis is becoming
+    A very simple display of who Terry Theis is becoming
 
 ## Demo
 
+Top of Page
 ![Header](./assets/pageSnip.png)
+
+Work section
+![Work](./assets/Workscreenshot.jpg)
+
+Contact section
+![Contacts](./assets/Contacts.jpg)
 
 ## Contributing
 Kelly Gowing, others with very helpful time loaned to get this done.
 Some code from Run-Buddy to help with navigation
+
+## Future Plans
+Get Media display working properly
+Design layout colors
+More description of work accomplished
+Add more links to favorite items
+Just ran out of time for this weeks challenge (2/14/21)
 
 ## License
 This is free and unencumbered software released into the public domain.

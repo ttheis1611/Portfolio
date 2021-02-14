@@ -1,15 +1,16 @@
+/*All page CSS*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Body size*/
 body {
     background-color: #4d4e4b;
     width: 1280px;
     height:auto; 
 }
-
+/*Header and Nav start*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -26,19 +27,6 @@ body {
 .header h1 {
     font-size: 48px;
 }
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-/*header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}*/
 
 header nav ul {
     display: flex;
@@ -61,27 +49,17 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+/*Header and Nav end*/
 
 
-#second-box {
-    height: 35px;
-    background-color: rgb(124, 128, 192)
-}
-
+/*Vertical bar to extend aside*/
 .vertical {
     border-left: 4px solid black;
     height: 990px;
     float: left;
     left: 25%;
 }
-
-.hero {
-    padding: 0 0 0 0;
-    margin: 0;
-    height: 220px;    
-    left: 25%;
-}
-
+/*Hero pic start*/
 #main-pic {
     border: solid 2px black;
     width: 1134px;
@@ -107,7 +85,9 @@ header nav ul li a:hover {
     padding-left: 81px;   
     border: solid 2px black;
 }
+/*Hero section end*/
 
+/*Content start */
 .content-work {
     padding-top: 30px;
     float: right;
@@ -122,11 +102,11 @@ header nav ul li a:hover {
  display: flex;
  flex-wrap: wrap;   
 }
-
+/*Aside Float*/
 #left-aside {
     float: left;
 }
-
+/*More Content */
 .about-me {   
     padding: 135px 10px 10px 10px;
     margin-top: 25px;
@@ -144,7 +124,7 @@ header nav ul li a:hover {
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
-
+/*Contact start*/
 .contact {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -164,8 +144,8 @@ div#Contact-info {
     padding: 690px 0 0 500px;
     left: 25%;
 }
-
-
+/*Content end*/
+/*Footer start */
 footer {
     padding: 0;
     float: right;
@@ -173,4 +153,33 @@ footer {
     text-align: center;
     background-color: gray;
     clear: both;
+}
+/*Footer end */
+/*Attempt at media queries but, just not enought time */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+.header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+}
+
+.header h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.header nav ul li a {
+    font-size: 20px;
+}
+
+.footer , footer div {
+    text-align: center;
+    width: 100%;
 }
